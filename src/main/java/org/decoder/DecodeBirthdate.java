@@ -11,6 +11,7 @@ public class DecodeBirthdate {
 
 
     public static void main(String[] args) {
+
         String str = sc.nextLine();
         if (str.length() == 8) {
             String[] arrOfStr = str.split("");
